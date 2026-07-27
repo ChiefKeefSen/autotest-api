@@ -36,6 +36,8 @@ class GetCoursesQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка курсов.
     """
+    model_config = ConfigDict(populate_by_name=True)
+
     user_id: str = Field(alias="userId")
 
 
@@ -60,10 +62,20 @@ class UpdateCourseRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    title: str
-    max_score: int = Field(alias="maxScore")
-    min_score: int = Field(alias="minScore")
-    description: str
-    estimated_time: str = Field(alias="estimatedTime")
+    title: str = Field(default_factory=fake.sentence)
+    max_score: int = Field(alias="maxScore", default_factory=fake.max_score)
+    min_score: int = Field(alias="minScore", default_factory=fake.min_score)
+    description: str = Field(default_factory=fake.text)
+    estimated_time: str = Field(alias="estimatedTime", default_factory=fake.estimated_time)
 
-print(CreateCourseRequestSchema())
+class UpdateCourseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа обновления курса.
+    """
+    course: CourseSchema
+
+class GetCoursesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение списка курсов.
+    """
+    courses: list[CourseSchema]

@@ -1,8 +1,6 @@
 from typing import TypedDict
 
-from httpx import QueryParams
-from pydantic import BaseModel
-from websockets import Response
+from httpx import QueryParams, Response
 
 from clients.api_client import APIClient
 
@@ -10,21 +8,19 @@ from clients.private_http_builder import AuthenticationUserSchema, get_private_h
 from clients.courses.course_schema import *
 
 
-
-
 class CoursesClient(APIClient):
     """
     Клиент для работы с /api/v1/courses
     """
 
-    def get_courses(self, query: GetCoursesQuerySchema) -> Response:
+    def get_courses_api(self, query: GetCoursesQuerySchema) -> Response:
         """
         Метод получения списка курсов.
 
         :param query: Словарь с userId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(f"/api/v1/courses", params=query)
+        return self.get(f"/api/v1/courses", params=query.model_dump(by_alias=True))
 
     def get_course(self, course_id: str) -> Response:
         """
