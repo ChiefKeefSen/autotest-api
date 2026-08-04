@@ -1,8 +1,10 @@
+from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_schema import ExerciseSchema, CreateExerciseRequestSchema, \
     CreateExerciseResponseSchema, GetExerciseResponseSchema, GetExercisesQuerySchema, UpdateExerciseResponseSchema, \
-    UpdateExerciseRequestSchema
+    UpdateExerciseRequestSchema, GetExercisesResponseSchema
 from fixtures.exercises import ExerciseFixture
-from tools.assertions.base import assert_equal
+from tools.assertions.base import assert_equal, assert_length
+from tools.assertions.errors import assert_internal_error_response
 
 
 def assert_create_exercise_response(actual: CreateExerciseResponseSchema, expected: CreateExerciseRequestSchema):
@@ -43,3 +45,18 @@ def assert_update_exercise_response(
     assert_equal(actual.exercise.order_index, expected.order_index, "order_index")
     assert_equal(actual.exercise.id, function_exercise.response.exercise.id, "id")
     assert_equal(actual.exercise.course_id, function_exercise.response.exercise.course_id, "course_id")
+
+
+def assert_exercise_not_found(actual: InternalErrorResponseSchema):
+    expected = InternalErrorResponseSchema(detail="Exercise not found")
+    assert_internal_error_response(actual, expected)
+
+
+def assert_get_exercises_response(
+        actual: GetExercisesResponseSchema,
+        expected: list[ExerciseSchema]
+):
+
+    assert_length(actual.exercises, expected, "exercises")
+    for index, exercise in enumerate(expected):
+        assert_exercise(actual.exercises[index], exercise)

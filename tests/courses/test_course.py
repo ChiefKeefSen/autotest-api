@@ -4,11 +4,13 @@ import pytest
 
 from clients.courses.courses_client import CourseClient
 from clients.courses.course_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, GetCoursesQuerySchema, \
-    GetCoursesResponseSchema
+    GetCoursesResponseSchema, CreateCourseRequestSchema, CreateCourseResponseSchema
 from fixtures.courses import CourseFixture
+from fixtures.files import FileFixture
 from fixtures.users import UserFixture
 from tools.assertions.base import assert_status_code
-from tools.assertions.courses import assert_update_course_response, assert_get_courses_response
+from tools.assertions.courses import assert_update_course_response, assert_get_courses_response, \
+    assert_create_course_response
 from tools.assertions.schema import validate_json_schema
 
 
@@ -39,3 +41,23 @@ class TestCourses:
         assert_get_courses_response(response_data, [function_course.response])
 
         validate_json_schema(response.json(), response_data.model_json_schema())
+
+    def test_create_course(self, courses_client: CourseClient, function_user: UserFixture, function_file: FileFixture):
+        request = CreateCourseRequestSchema(
+            createdByUserId=function_user.response.user.id,
+            previewFileId=function_file.response.file.id
+        )
+        response = courses_client.create_course_api(request)
+        response_data = CreateCourseResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        assert_create_course_response(request, response_data)
+
+
+
+    #чтоб запустить тесты с итоговым отчетом в allure (например по флагу "regression")
+    #надо написать: pytest -m "regression" --alluredir=./allure-results
+    #чтоб отобразить отчет: allure serve ./allure-results
+    #таким образом локально поднимается сервер на котором уже можно посмотреть отчет
+    #если мы хотим статический то из папки с отчетами его генерируем
+    #allure generate ./allure-results --output=./allure-report
