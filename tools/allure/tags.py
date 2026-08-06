@@ -1,0 +1,17 @@
+from enum import Enum
+
+
+class AllureTag(str, Enum): #enum полезная штука, чтоб в буковах не ошибаться
+    USERS = "USERS"
+    COURSES = "COURSES"
+    FILES = "FILES"
+    EXERCISES = "EXERCISES"
+    AUTHENTICATION = "AUTHENTICATION"
+    REGRESSION = "REGRESSION"
+
+    GET_ENTITY = "GET_ENTITY"
+    GET_ENTITIES = "GET_ENTITIES"
+    CREATE_ENTITY = "CREATE_ENTITY"
+    UPDATE_ENTITY = "UPDATE_ENTITY"
+    DELETE_ENTITY = "DELETE_ENTITY"
+    VALIDATE_ENTITY = "VALIDATE_ENTITY"
