@@ -1,5 +1,6 @@
 from typing import TypedDict
 
+import allure
 from httpx import Response
 
 from clients.api_client import APIClient
@@ -7,13 +8,15 @@ from clients.private_http_builder import AuthenticationUserSchema, get_private_h
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema
 
 
-
 class FilesClient(APIClient):
     """Клиент для отправки файлов (/api/v1/files)"""
+
+    @allure.step("Get file by id {file_id}")
     def get_file_api(self, file_id: str) -> Response:
         """Метод на получение файла по его идентификатору"""
         return self.get(f"/api/v1/files/{file_id}")
 
+    @allure.step("Create file")
     def create_file_api(self, request: CreateFileRequestSchema) -> Response:
         """Метод создания файла на сервере"""
         return self.post(
@@ -22,6 +25,7 @@ class FilesClient(APIClient):
             files={"upload_file": open(request.upload_file, "rb")}
         )
 
+    @allure.step("Delete file by id {file_id}")
     def delete_file_api(self, file_id: str) -> Response:
         """
         Метод удаления файла.
@@ -34,6 +38,7 @@ class FilesClient(APIClient):
     def create_file(self, request: CreateFileRequestSchema) -> CreateFileResponseSchema:
         response = self.create_file_api(request)
         return CreateFileResponseSchema.model_validate_json(response.text)
+
 
 def get_files_client(user: AuthenticationUserSchema) -> FilesClient:
     """

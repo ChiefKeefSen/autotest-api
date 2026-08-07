@@ -1,9 +1,10 @@
-from clients.authentication.authentication_schema import LoginResponseSchema
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema, \
     UserSchema
+import allure
 from tools.assertions.base import assert_equal
 
 
+@allure.step("Check create user response")
 def assert_create_user_response(request: CreateUserRequestSchema, response: CreateUserResponseSchema):
     """
     Проверяет, что ответ на создание пользователя соответствует запросу.
@@ -17,12 +18,8 @@ def assert_create_user_response(request: CreateUserRequestSchema, response: Crea
     assert_equal(response.user.first_name, request.first_name, "first_name")
     assert_equal(response.user.middle_name, request.middle_name, "middle_name")
 
-def assert_login_response(response: LoginResponseSchema):
 
-    assert_equal(response.token.token_type, "bearer", "token_type")
-    assert response.token.access_token != "", "access_token пустой"
-    assert response.token.refresh_token != "", "refresh_token пустой"
-
+@allure.step("Check get user response")
 def assert_get_user_response(response_data: GetUserResponseSchema, expected: CreateUserResponseSchema):
     assert_equal(response_data.user.id, expected.user.id, "id")
     assert_equal(response_data.user.email, expected.user.email, "email")
@@ -30,6 +27,8 @@ def assert_get_user_response(response_data: GetUserResponseSchema, expected: Cre
     assert_equal(response_data.user.first_name, expected.user.first_name, "first_name")
     assert_equal(response_data.user.middle_name, expected.user.middle_name, "middle_name")
 
+
+@allure.step("Check user")
 def assert_user(actual: UserSchema, expected: UserSchema):
     assert_equal(actual.id, expected.id, "id")
     assert_equal(actual.first_name, expected.first_name, "first_name")
