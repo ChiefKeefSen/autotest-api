@@ -1,5 +1,5 @@
 from pydantic import BaseModel, HttpUrl, Field
-from tools.fakers import fake
+from tools.http.fakers import fake
 
 class CreateFileRequestSchema(BaseModel):
     """Описание структуры запроса на создание файла"""

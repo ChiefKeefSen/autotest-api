@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from tools.fakers import fake
+from tools.http.fakers import fake
 
 class TokenSchema(BaseModel):
     """

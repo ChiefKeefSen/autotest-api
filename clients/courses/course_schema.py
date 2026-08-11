@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field, ConfigDict
 
 from clients.files.files_schema import FileSchema
 from clients.users.users_schema import UserSchema
-from tools.fakers import fake
+from tools.http.fakers import fake
 
 
 class CreateCourseRequestSchema(BaseModel):

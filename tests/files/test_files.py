@@ -1,5 +1,6 @@
 from http import HTTPStatus
 
+
 import allure
 import pytest
 from allure_commons.types import Severity
@@ -42,6 +43,7 @@ class TestFiles:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @pytest.mark.xdist_group(name="files-group")
     @allure.tag(AllureTag.GET_ENTITY)
     @allure.story(AllureStory.GET_ENTITY)
     @allure.severity(Severity.BLOCKER)
@@ -89,6 +91,7 @@ class TestFiles:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @pytest.mark.xdist_group(name="files-group")
     @allure.tag(AllureTag.DELETE_ENTITY)
     @allure.story(AllureStory.DELETE_ENTITY)
     @allure.severity(Severity.NORMAL)
@@ -102,6 +105,7 @@ class TestFiles:
         assert_file_not_found_response(get_response_data)
 
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
+
 
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     @allure.story(AllureStory.VALIDATE_ENTITY)

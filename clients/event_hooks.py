@@ -1,8 +1,10 @@
 import allure
-from httpx import Request
+from httpx import Request, Response
 
 from tools.http.curl import make_curl_from_request
+from tools.http.logger import get_logger
 
+logger = get_logger("HTTP_LOGGER") #обычно его так инициализируют
 
 def curl_event_hook(request: Request):
     """
@@ -13,9 +15,21 @@ def curl_event_hook(request: Request):
 
     allure.attach(curl_command, "cURL command", allure.attachment_type.TEXT)
 
+def log_request_event_hook(request: Request):
+    logger.info(f"Make {request.method} request to {request.url}")
+
+
+def log_response_event_hook(response: Response):
+    logger.info(f"Got response {response.status_code} {response.reason_phrase} from {response.url}")
+    #reason_phrase это название кода ответа словом (NOT_FOUND)
+
+
+
+
 """
 Хук (hook) — это функция-обработчик, которую фреймворк вызывает автоматически при наступлении определённого события.
 
+например при каждом запросе прикреплять cURL к нему
 В твоём проекте: httpx при каждом запросе срабатывает событие "request", и фреймворк вызывает зарегистрированный в event_hooks обработчик curl_event_hook.
 
 Зачем нужны:
