@@ -1,4 +1,6 @@
-from pydantic import BaseModel, HttpUrl, FilePath
+from typing import Self
+
+from pydantic import BaseModel, HttpUrl, FilePath, DirectoryPath
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -31,11 +33,18 @@ class Settings(BaseSettings):
 
     test_data: TestDataConfig
     http_client: HTTPClientConfig
+    allure_results_dir: DirectoryPath #буквально путь указывающий на директорию
 
+    @classmethod
+    def initialize(cls) -> Self: #возвращаемый объект есть экземпляр класса
+        allure_results_dir = DirectoryPath("./allure-results")
+        allure_results_dir.mkdir(exist_ok=True) #аргумент - если существует то не создам, иначе создам
+
+        return Settings(allure_results_dir=allure_results_dir)
 #print(Settings()) #все поля подтягиваются из .env файла
 
-settings = Settings()
-
+settings = Settings.initialize()
+print("\n".join([f" {key}={value}" for key, value in settings.model_dump().items()]))
 
 
 
