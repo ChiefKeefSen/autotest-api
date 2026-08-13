@@ -3,6 +3,8 @@ from typing import Self
 from pydantic import BaseModel, HttpUrl, FilePath, DirectoryPath
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+import platform
+import sys
 
 #первые 2 модели вложенные они наследуются от basemodel,
 #а модель где они будут применяться всегда наследуется от BaseSettings
@@ -44,6 +46,8 @@ class Settings(BaseSettings):
 #print(Settings()) #все поля подтягиваются из .env файла
 
 settings = Settings.initialize()
+print(f"os_info={platform.system()}, {platform.release()}  python_version={sys.version}")
+print("///////")
 print("\n".join([f" {key}={value}" for key, value in settings.model_dump().items()]))
 
 
