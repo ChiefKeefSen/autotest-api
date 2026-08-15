@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjIxOjQ2Ljg2NDU5NiIsInVzZXJfaWQiOiI3ZDU5NTgxMS1iN2ZmLTQ2NmEtYWM0MC05NWQzMmI0YjY3MjkifQ.jDzz2jjbmg4mWnwYqmpESXlcmv1oN3bUtAQhFAomEEk' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seat choose which agency network.","maxScore":70,"minScore":9,"description":"Room country figure scene skin expect beat. Later available subject only. Key majority natural play whatever. Rule organization term agree star mention.","estimatedTime":"1 weeks","previewFileId":"b8960d70-adde-4483-9121-9f5b40221d78","createdByUserId":"7d595811-b7ff-466a-ac40-95d32b4b6729"}'

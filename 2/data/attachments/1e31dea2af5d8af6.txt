@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjIxOjQxLjc4OTgzMCIsInVzZXJfaWQiOiIxNTdmYjZmMC1jOTkzLTQzNTgtODVkYi05ZTk4NTQyYmFhMGMifQ.GARy5L0lmxi7K-FjLWWYhui0TDY_iDO-U2DyXPnbpls' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heavy cultural realize heart break growth here.","maxScore":97,"minScore":7,"description":"Hour toward media food. Race indicate behind capital. Left behind expert they have lose.\nTonight above vote technology dark. Join job type.","estimatedTime":"3 weeks","previewFileId":"5d8f1371-5c5e-4946-b2f8-bca4e4f02af0","createdByUserId":"157fb6f0-c993-4358-85db-9e98542baa0c"}'

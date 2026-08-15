@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/60bdd17e-343e-439d-a303-d804b6c6f825' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjIxOjQyLjY0MjQ5NyIsInVzZXJfaWQiOiI5MmZlNzVkOS03YTBlLTQ2NWItOTZlNS0wNDk1MGM4YmJhZGIifQ.cZSgdRiwni-g5EoCOJAeAnlUIDRseeWvPZerTZ3Q8_4' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Account soldier move force on.","maxScore":85,"minScore":24,"description":"Idea always today. Service let risk arm. Budget now sit challenge seem create society conference.\nCurrent rock cell result. Government on question.","estimatedTime":"10 weeks"}'

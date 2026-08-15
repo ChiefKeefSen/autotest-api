@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjIxOjQ0Ljg3NzIxMSIsInVzZXJfaWQiOiI3MzljNTJjZC0yZDZiLTRmNzMtOWVjZi1hNjNjNjVkZmQyMmYifQ.qeMuPiimuQixIR6NU5HaFRfpfYC6D1ZrNN_tTGypBdM' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ready head probably then have.","maxScore":95,"minScore":14,"description":"Necessary drive skin hot stop provide like everything. Page watch unit conference budget white pay. Morning call beyond everybody civil seek PM.","estimatedTime":"9 weeks","previewFileId":"cd70775a-0aab-4e3c-8b6d-c69d6a5055fd","createdByUserId":"739c52cd-2d6b-4f73-9ecf-a63c65dfd22f"}'

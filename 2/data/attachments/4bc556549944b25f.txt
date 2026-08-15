@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjIxOjQ1LjcxMzIxMSIsInVzZXJfaWQiOiIwMTMyMzc4YS04OTJjLTRmNzktOWFkYi00ZTM2MDk0MGZiNjMifQ.NhcTamesCoNJBMGl5CHNdUUNgagXb9Rc6wjQ4DlULpw' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Under prevent exactly smile staff piece.","maxScore":59,"minScore":17,"description":"Quality kitchen lead language work result tree discussion. Mother usually sound sea task arm shoulder.\nMusic serve it near age. Join growth industry dinner trial. Far hope half true left.","estimatedTime":"3 weeks","previewFileId":"78da76de-91fb-421e-b5aa-2b801ea05d52","createdByUserId":"0132378a-892c-4f79-9adb-4e360940fb63"}'

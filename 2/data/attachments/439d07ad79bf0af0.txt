@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjIxOjQxLjIzMDYzNCIsInVzZXJfaWQiOiI4ZWJlYjU2MC00MjYzLTRkZjYtOGY1NC1lMTUyMGM5Y2RmY2UifQ.3YErcPPeM9kv-9jAZDG3I5jMyrhz4BQnMaDZcGO9gxs' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Up finally particularly bag.","maxScore":68,"minScore":21,"description":"Stuff fall camera machine mouth. Else grow discuss better particularly deal. Thing current ready body but trade including.","estimatedTime":"8 weeks","previewFileId":"0da38167-2839-421c-8137-b26323fcefe8","createdByUserId":"8ebeb560-4263-4df6-8f54-e1520c9cdfce"}'

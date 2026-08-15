@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjIxOjQwLjk1MjU1MSIsInVzZXJfaWQiOiJhNDYxZmY3Yy1hODUwLTQ0MTEtYjZiMi1iZDMwYjlmZjhjZDgifQ.G5CngsI86eLg8toXkcOENtesjdP_8Xs1bohzO3uGqhY' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Raise for fire large me seven bit.","maxScore":98,"minScore":16,"description":"Likely almost nation money area. Quickly own action. Friend month accept resource low.\nOut her floor necessary go successful. Heavy red certainly. Common exist write current lead possible news.","estimatedTime":"1 weeks","previewFileId":"600f0844-d0e1-4ac1-a815-735d0e9ffade","createdByUserId":"a461ff7c-a850-4411-b6b2-bd30b9ff8cd8"}'

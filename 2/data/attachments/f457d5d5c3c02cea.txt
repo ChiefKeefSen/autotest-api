@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjIxOjQyLjY0MjQ5NyIsInVzZXJfaWQiOiI5MmZlNzVkOS03YTBlLTQ2NWItOTZlNS0wNDk1MGM4YmJhZGIifQ.cZSgdRiwni-g5EoCOJAeAnlUIDRseeWvPZerTZ3Q8_4' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Act will public score no cold education.","maxScore":93,"minScore":15,"description":"Great often fly structure degree evidence glass strategy. Must film another organization open least.\nWhose we itself be fall could assume. Dog whose firm country travel half.","estimatedTime":"5 weeks","previewFileId":"a1354fc2-c535-4fb7-9aa3-07c9c5bab282","createdByUserId":"92fe75d9-7a0e-465b-96e5-04950c8bbadb"}'

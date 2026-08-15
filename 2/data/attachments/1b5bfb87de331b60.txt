@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDA5OjIxOjQyLjM1MzA2OCIsInVzZXJfaWQiOiJlNWY2MGJlMS03NDMzLTQxNTAtYmJmNS1mMTk2ODg5MjM5ZTEifQ.IfswW9Zw8AKQ7dzofEej6r1TBjdzAuoJWJvD6pEwIg8' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prepare response firm drop.","courseId":"662919d7-3827-48f7-89b7-06c6905981f6","maxScore":100,"minScore":3,"orderIndex":18,"description":"Low lot yeah knowledge safe report. As security right teacher ten her prepare. Worker election social tonight teacher.","estimatedTime":"4 weeks"}'
