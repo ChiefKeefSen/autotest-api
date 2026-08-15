@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjQwOjAxLjQxNDI1MSIsInVzZXJfaWQiOiJjYzE0ZTcyOC00ZTk1LTQ4OWYtOTI1MC0yYzUzMWVkNGM3OTEifQ.bsJDd3epiflxdbTXA82Y4OXmdO0fWoFOLx9UfBIDTa4' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"It leg newspaper course many.","courseId":"dda1616f-c0eb-4434-ad13-721b6ca0121d","maxScore":85,"minScore":20,"orderIndex":27,"description":"Tend blue window whose. Color teach because kitchen. People throughout himself chair list note really bit.","estimatedTime":"1 weeks"}'

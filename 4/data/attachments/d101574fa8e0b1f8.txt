@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjQwOjAxLjQxNDI1MSIsInVzZXJfaWQiOiJjYzE0ZTcyOC00ZTk1LTQ4OWYtOTI1MC0yYzUzMWVkNGM3OTEifQ.bsJDd3epiflxdbTXA82Y4OXmdO0fWoFOLx9UfBIDTa4' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arrive check pattern we fine author.","maxScore":67,"minScore":24,"description":"Check need field learn. Without certain apply describe per.\nNotice black avoid actually as. Should sport stage back bed cause.\nBig piece paper three tell three. Woman big put too include create.","estimatedTime":"1 weeks","previewFileId":"f717fd06-68b5-4266-9812-02d7950e4fa4","createdByUserId":"cc14e728-4e95-489f-9250-2c531ed4c791"}'

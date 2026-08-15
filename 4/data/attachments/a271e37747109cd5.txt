@@ -1,0 +1,27 @@
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:19 Make GET request to http://localhost:8000/api/v1/courses?userId=8e27416a-dd6f-48ed-ba6d-8c4844668fc1
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=8e27416a-dd6f-48ed-ba6d-8c4844668fc1
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 200
+INFO     BASE_ASSERTIONS:base.py:53 Check that the length of 'courses' is equal to [CreateCourseResponseSchema(course=CourseSchema(id='3c96fa33-ba01-4f04-a7b0-67e36eb71aad', title='You bad week central morning door gas office.', max_score=54, min_score=8, description='Through certain old include. Nearly manager risk recent carry note. Citizen name foreign everyone opportunity a different.', preview_file=FileSchema(id='a5c2c027-3d87-4519-83dc-6cd44bb610bc', url=HttpUrl('http://localhost:8000/static/tests/697d6721-383d-4c6a-bba3-5c12ee8d979b.png'), filename='697d6721-383d-4c6a-bba3-5c12ee8d979b.png', directory='tests'), estimated_time='7 weeks', created_by_user=UserSchema(id='8e27416a-dd6f-48ed-ba6d-8c4844668fc1', email='michael29@example.org', last_name='Daniel', first_name='Shari', middle_name='Paul')))]
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'id' is equal to '3c96fa33-ba01-4f04-a7b0-67e36eb71aad'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'title' is equal to 'You bad week central morning door gas office.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'max_score' is equal to '54'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'min_score' is equal to '8'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'description' is equal to 'Through certain old include. Nearly manager risk recent carry note. Citizen name foreign everyone opportunity a different.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'estimated_time' is equal to '7 weeks'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'id' is equal to 'a5c2c027-3d87-4519-83dc-6cd44bb610bc'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'url' is equal to 'http://localhost:8000/static/tests/697d6721-383d-4c6a-bba3-5c12ee8d979b.png'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'filename' is equal to '697d6721-383d-4c6a-bba3-5c12ee8d979b.png'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'directory' is equal to 'tests'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'id' is equal to '8e27416a-dd6f-48ed-ba6d-8c4844668fc1'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'first_name' is equal to 'Shari'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'last_name' is equal to 'Daniel'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'email' is equal to 'michael29@example.org'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'middle_name' is equal to 'Paul'

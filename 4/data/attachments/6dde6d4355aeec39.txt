@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjQwOjAwLjI2MzUwNCIsInVzZXJfaWQiOiI4ZTI3NDE2YS1kZDZmLTQ4ZWQtYmE2ZC04YzQ4NDQ2NjhmYzEifQ.CsiGVuQfS6OdDb9DRI7BVvkIqDvT3tSxzOJI1MicwX0' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"You bad week central morning door gas office.","maxScore":54,"minScore":8,"description":"Through certain old include. Nearly manager risk recent carry note. Citizen name foreign everyone opportunity a different.","estimatedTime":"7 weeks","previewFileId":"a5c2c027-3d87-4519-83dc-6cd44bb610bc","createdByUserId":"8e27416a-dd6f-48ed-ba6d-8c4844668fc1"}'

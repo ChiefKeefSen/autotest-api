@@ -1,0 +1,12 @@
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:19 Make GET request to http://localhost:8000/api/v1/users/me
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users/me
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 200
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'id' is equal to 'ba52c16b-9d0e-4426-a7d1-327974b1dc3d'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'email' is equal to 'gmiller@example.com'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'last_name' is equal to 'Goodwin'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'first_name' is equal to 'Michael'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'middle_name' is equal to 'Gregory'

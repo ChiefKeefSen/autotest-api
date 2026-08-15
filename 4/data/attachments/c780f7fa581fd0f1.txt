@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjQwOjA1LjY0NjExNyIsInVzZXJfaWQiOiJmNzViYjQzNS02ZWJmLTQwYTktYTUwMi02MGQxMjYxMTJlNTgifQ.i0899ZYABIJAK5puCOLX_R3u-6kFs-wcZ2YJbe_AZnQ' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Street agency tree focus way.","maxScore":94,"minScore":2,"description":"Still money arrive leader. Along every employee painting list oil back. Recent line property protect.\nMight environmental final space bag leave standard. Half thousand bed usually mother future.","estimatedTime":"5 weeks","previewFileId":"e39c9584-040c-479f-9b15-03f8b305d372","createdByUserId":"f75bb435-6ebf-40a9-a502-60d126112e58"}'

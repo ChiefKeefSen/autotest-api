@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjQwOjAxLjk3NjE2NCIsInVzZXJfaWQiOiI1MjExYWE4OS1kZWE0LTQ0NTYtYmUxMS1hMTQ4YTA2YjE3Y2IifQ.mNkIOEqhKP1DpAYVoT8e6TXD0hPeFlVwtuIRMJFdC3s' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tv mother such whatever resource.","maxScore":52,"minScore":4,"description":"Plant rise either available. Sort land into song believe life. Pressure behind system score.","estimatedTime":"2 weeks","previewFileId":"34819156-315d-4530-a7ed-99b4c8e3449c","createdByUserId":"5211aa89-dea4-4456-be11-a148a06b17cb"}'

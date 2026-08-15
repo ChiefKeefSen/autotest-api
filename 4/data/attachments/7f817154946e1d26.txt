@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjQwOjAzLjkzMTg5MCIsInVzZXJfaWQiOiJkMTBkYTllZC03NWEzLTRhZWItYjAyNi03YjQxNTcwOTcwODQifQ.F1cLhD_G5Q4TjfKHMi7Tu-Qy2BWpG31OzsTLYvKmidA' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Individual source because.","maxScore":62,"minScore":1,"description":"Huge election involve his today.\nLikely lose room myself. Parent discussion visit.\nReduce but though available brother out.","estimatedTime":"2 weeks","previewFileId":"955297ac-4b59-4e91-8180-9b6a31dd358b","createdByUserId":"d10da9ed-75a3-4aeb-b026-7b4157097084"}'
