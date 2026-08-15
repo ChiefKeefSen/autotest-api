@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjMyOjMxLjg1MjIzOCIsInVzZXJfaWQiOiJhNDgwOTc5ZS0zM2VjLTQ3OTAtODNlYi02ZTU5MDQwYjVhOTYifQ.geich6kt9cH0lpSyEOuymbnHs3CMPWL9IUqCGIoNSHU' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deep coach pressure table.","maxScore":80,"minScore":19,"description":"Magazine purpose race front against. Size town pressure interesting former. Indicate training sign.\nTerm go seem dark person subject. Trade catch drug new do so. Approach song along dog.","estimatedTime":"9 weeks","previewFileId":"18336da0-1f77-41e5-9c4a-d11da89b87df","createdByUserId":"a480979e-33ec-4790-83eb-6e59040b5a96"}'

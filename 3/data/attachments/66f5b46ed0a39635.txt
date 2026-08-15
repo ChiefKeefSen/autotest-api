@@ -1,0 +1,17 @@
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 200
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'title' is equal to 'Deep coach pressure table.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'max_score' is equal to '80'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'min_score' is equal to '19'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'description' is equal to 'Magazine purpose race front against. Size town pressure interesting former. Indicate training sign.
+Term go seem dark person subject. Trade catch drug new do so. Approach song along dog.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'estimated_time' is equal to '9 weeks'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'preview_file_id' is equal to '18336da0-1f77-41e5-9c4a-d11da89b87df'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'created_by_user_id' is equal to 'a480979e-33ec-4790-83eb-6e59040b5a96'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjMyOjMzLjU1MDA4MSIsInVzZXJfaWQiOiJiZDcyNGRjZi1iOWI1LTQ3NTMtOTc0Mi1lMDU0Mjc5MjkwNjUifQ.C5Xn2Z0JAI_yy_fP0Y7rqckYkHRNAitno4jLgOg4NJI' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fill discussion dark hold.","courseId":"fd533a31-b983-4328-a8f3-9c38ed519fa6","maxScore":64,"minScore":23,"orderIndex":69,"description":"Along town majority box follow certain. Other single law radio form than billion. Environmental board blue article member music military.","estimatedTime":"3 weeks"}'

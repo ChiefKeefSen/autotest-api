@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjMyOjMwLjk1MDAyNyIsInVzZXJfaWQiOiI0NmRkMDkyOS0zYzA3LTQyMWUtYjBmOC03Zjk1ZDMyMmMyNTIifQ.qg6IlfcJYoBm8FdPng6ImWpS_DRSycxJruKa8eda-XM' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Road per student clearly official like candidate.","maxScore":53,"minScore":5,"description":"Significant market financial serious light. Person whether catch off grow car kitchen.\nContinue science great. Research spend bank. Station factor clear trial pass own.","estimatedTime":"7 weeks","previewFileId":"2bcfe0c7-6449-4981-b06d-72c1283babf8","createdByUserId":"46dd0929-3c07-421e-b0f8-7f95d322c252"}'

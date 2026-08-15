@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjMyOjI3LjU4MDk1NiIsInVzZXJfaWQiOiI0M2VhOTMwNi00MzliLTRmODQtODkxMS1mMzgxZDgzMjU5N2YifQ.IsnsUSM8Z3YMWReyStUWaWa9FPixPxIcgPCiftEM7ys' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Activity special no nor join sister have.","maxScore":69,"minScore":24,"description":"Read no TV. Those by two meet how moment. Political follow season just major.\nBring look probably education. Science off purpose fact why military.","estimatedTime":"9 weeks","previewFileId":"7ba3ca08-0674-401a-a5d8-4c3b8ec12532","createdByUserId":"43ea9306-439b-4f84-8911-f381d832597f"}'

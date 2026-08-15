@@ -1,0 +1,10 @@
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 200
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'url' is equal to 'http://localhost:8000/static/tests/da82ca08-0ade-45f0-986e-07866985e6f2.png'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'filename' is equal to 'da82ca08-0ade-45f0-986e-07866985e6f2.png'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'directory' is equal to 'tests'

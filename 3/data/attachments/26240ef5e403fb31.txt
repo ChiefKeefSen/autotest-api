@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjMyOjI5LjM2MjgzMCIsInVzZXJfaWQiOiI1MmZlODgzMC1mNzRiLTRlZWEtYjQ0OS0zZDJiYjUzMTJmYjAifQ.FB4TXjwTtMKufikJxqtHPCsLgxn6QXqDeJ9Jx4vht0E' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ten board daughter interest so.","maxScore":56,"minScore":3,"description":"Number rest nothing through tend blue. Major opportunity law billion.\nGoal couple friend argue evidence woman begin. Dark case identify must only along end less. Play feeling question increase.","estimatedTime":"3 weeks","previewFileId":"fd306fad-a6e8-442c-b923-79fb2eb8cefa","createdByUserId":"52fe8830-f74b-4eea-b449-3d2bb5312fb0"}'

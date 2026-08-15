@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjMyOjI3LjAxMDE1NyIsInVzZXJfaWQiOiIxM2Q4NTRiNC0yN2UwLTQ0ZTUtYmM0Ny1kNTc3ZmRlNWRiOGIifQ._M1dtChiVUSeiKaBUFsFWEqoHTFo-hXj_P9arzq5DQw' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Listen expert meeting product anything war Republican.","maxScore":85,"minScore":15,"description":"Attention certainly view response. Inside as hold assume hotel floor lot sound.\nThought kind which edge. Message also night stand.\nOut medical effort second fill win ability.","estimatedTime":"4 weeks","previewFileId":"36650659-eafc-4892-9532-0e59328fcb01","createdByUserId":"13d854b4-27e0-44e5-bc47-d577fde5db8b"}'

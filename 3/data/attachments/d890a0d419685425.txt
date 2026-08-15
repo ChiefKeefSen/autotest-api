@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjMyOjI4LjQyOTQ0NiIsInVzZXJfaWQiOiJjZmEzZmUyNS00YmY0LTRkYjYtYmZiMS1iZmUyNTVkMGJmNjEifQ.8mHO_OFaHYuifKgU5Wmu6-pfJURF39MulTPsvPtk3nY' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interview scene article contain painting drive over.","maxScore":70,"minScore":22,"description":"Quality kid or research sea. Clear big find field change girl. Talk study relationship risk southern professional treat certainly.","estimatedTime":"8 weeks","previewFileId":"ae668c77-b921-42ac-8111-26dec5deab54","createdByUserId":"cfa3fe25-4bf4-4db6-bfb1-bfe255d0bf61"}'

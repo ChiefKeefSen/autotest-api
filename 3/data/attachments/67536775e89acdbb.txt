@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d1f29828-6ff6-4fa9-97e6-a46b2014950c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTE1VDEwOjMyOjI5LjM2MjgzMCIsInVzZXJfaWQiOiI1MmZlODgzMC1mNzRiLTRlZWEtYjQ0OS0zZDJiYjUzMTJmYjAifQ.FB4TXjwTtMKufikJxqtHPCsLgxn6QXqDeJ9Jx4vht0E' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hair nice actually event.","maxScore":62,"minScore":19,"description":"Medical town century treatment thought certain. School story action never someone scientist believe.\nFill finish society scientist.\nEverybody term lose stop. Rock long people when sister fear.","estimatedTime":"3 weeks"}'
