@@ -27,6 +27,7 @@ class TestDataConfig(BaseModel):
 #также настройки при запуске срабатывают раньше, а значит и ошибки в них первее всего выскочат
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(
+        extra="allow",
         env_file=".env",
         env_file_encoding="utf-8",
         env_nested_delimiter="." #это делитель для вложенных моделей
