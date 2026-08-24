@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDIyOjUyOjExLjk4ODIzMCIsInVzZXJfaWQiOiJmZmE0MWYzMC1lNDcwLTRmN2ItODczZi01ZTk2OTFiOGQzZTMifQ.b9mVWI5dpRvViUKl45W0WsTIbtKaL5dq5RixX-Y8rrM' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Financial little product those community discover color.","maxScore":61,"minScore":13,"description":"Eat about message avoid expect job. Plant industry different must group professor.\nGet choose individual cold. Only here center science cover difficult.","estimatedTime":"7 weeks","previewFileId":"b03e2bb9-8af8-4196-a663-ac1c70f9c3e2","createdByUserId":"ffa41f30-e470-4f7b-873f-5e9691b8d3e3"}'

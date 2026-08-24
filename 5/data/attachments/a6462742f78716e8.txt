@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 200
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'estimated_time' is equal to '9 weeks'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'title' is equal to 'Mouth deep major.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'min_score' is equal to '22'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'max_score' is equal to '95'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'description' is equal to 'Forward least entire instead play. Action feeling arm.
+Enough Mrs capital candidate natural. Ok along worry visit. Specific order religious return.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'course_id' is equal to '721ac284-45bb-4152-bc47-8b71ba0263cc'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'order_index' is equal to '13'

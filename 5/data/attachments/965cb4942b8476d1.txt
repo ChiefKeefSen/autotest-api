@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDIyOjUyOjE5LjUxMDg4NiIsInVzZXJfaWQiOiIwNGVhMGRlZS01NjVmLTRlZDktOWQ1ZS0zZDhjMjcxYjMxMjIifQ.VJ_cySsFYhU4FJ1qdJPG35J3vazwxbCQgEJpuMJtrVQ' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Significant owner especially.","maxScore":85,"minScore":5,"description":"Base western appear amount increase.\nManagement war rate like suggest parent.","estimatedTime":"7 weeks","previewFileId":"3b6bd4b7-bdd9-46fb-a063-064f8ba44b55","createdByUserId":"04ea0dee-565f-4ed9-9d5e-3d8c271b3122"}'

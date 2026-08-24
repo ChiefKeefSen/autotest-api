@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDIyOjUyOjEzLjI2MDU0NCIsInVzZXJfaWQiOiJlMTNlZjE2NS03NjI2LTQwNTgtYTk1NS03ZmYyMGNmOWY1ZTQifQ.tNjAfePdbneEAvOWwHuDwTBVx_XkKrhNwg4UPL8casM' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Could black news speech return mind image.","maxScore":85,"minScore":29,"description":"Believe worker raise what special. Set bill call opportunity heavy suddenly development budget. Treatment everyone describe TV sport land your.","estimatedTime":"3 weeks","previewFileId":"7fbc2469-5b9b-44a2-8247-a7ada3b8bdff","createdByUserId":"e13ef165-7626-4058-a955-7ff20cf9f5e4"}'

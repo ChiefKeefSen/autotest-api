@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/4ee5f5db-ff83-4a79-a343-f10ed4431c19' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDIyOjUyOjEyLjYzMjUwMCIsInVzZXJfaWQiOiJjZjVmYTNhYi03NTI0LTQxYWYtYTJmZC0xYWU0YzFhMjUwMGUifQ.6jcJdxsapGwIlvDKyWzMAKYv7JoucPPE9653fckfJSA' \
+  -H 'content-length: 142' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Россия","maxScore":98,"minScore":5,"orderIndex":13,"description":"Россия это страна","estimatedTime":"9 weeks"}'

@@ -1,0 +1,27 @@
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:19 Make GET request to http://localhost:8000/api/v1/courses?userId=e13ef165-7626-4058-a955-7ff20cf9f5e4
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=e13ef165-7626-4058-a955-7ff20cf9f5e4
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 200
+INFO     BASE_ASSERTIONS:base.py:53 Check that the length of 'courses' is equal to [CreateCourseResponseSchema(course=CourseSchema(id='5ac15728-1436-422b-81de-35659875799b', title='Could black news speech return mind image.', max_score=85, min_score=29, description='Believe worker raise what special. Set bill call opportunity heavy suddenly development budget. Treatment everyone describe TV sport land your.', preview_file=FileSchema(id='7fbc2469-5b9b-44a2-8247-a7ada3b8bdff', url=HttpUrl('http://localhost:8000/static/tests/892f5960-3b0d-4b8b-8772-c8969549d458.png'), filename='892f5960-3b0d-4b8b-8772-c8969549d458.png', directory='tests'), estimated_time='3 weeks', created_by_user=UserSchema(id='e13ef165-7626-4058-a955-7ff20cf9f5e4', email='carly33@example.org', last_name='Holmes', first_name='Joseph', middle_name='Timothy')))]
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'id' is equal to '5ac15728-1436-422b-81de-35659875799b'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'title' is equal to 'Could black news speech return mind image.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'max_score' is equal to '85'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'min_score' is equal to '29'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'description' is equal to 'Believe worker raise what special. Set bill call opportunity heavy suddenly development budget. Treatment everyone describe TV sport land your.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'estimated_time' is equal to '3 weeks'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'id' is equal to '7fbc2469-5b9b-44a2-8247-a7ada3b8bdff'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'url' is equal to 'http://localhost:8000/static/tests/892f5960-3b0d-4b8b-8772-c8969549d458.png'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'filename' is equal to '892f5960-3b0d-4b8b-8772-c8969549d458.png'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'directory' is equal to 'tests'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'id' is equal to 'e13ef165-7626-4058-a955-7ff20cf9f5e4'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'first_name' is equal to 'Joseph'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'last_name' is equal to 'Holmes'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'email' is equal to 'carly33@example.org'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'middle_name' is equal to 'Timothy'

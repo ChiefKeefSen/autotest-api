@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e0486b6c-075a-4d40-a2f1-5ed3cbd0e010' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDIyOjUyOjE0LjU3MDY5MSIsInVzZXJfaWQiOiJlZjBmM2Q2Ny01Mzk2LTQ3OWQtODAzMS0yYjk3MTQzOWE4NDYifQ.3zmqgJ1WPomshyfHHnTlzc7ukYKCqQL5SjnXvC2wFtM' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Chair social free forget new.","maxScore":69,"minScore":9,"description":"Significant husband third center nation rock among. Oil teacher miss store watch difference approach.\nIndicate data threat interview wall action. Leg back lead.","estimatedTime":"6 weeks"}'

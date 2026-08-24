@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDIyOjUyOjEyLjYzMjUwMCIsInVzZXJfaWQiOiJjZjVmYTNhYi03NTI0LTQxYWYtYTJmZC0xYWU0YzFhMjUwMGUifQ.6jcJdxsapGwIlvDKyWzMAKYv7JoucPPE9653fckfJSA' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Moment spend practice such pretty bed.","courseId":"70921728-6905-47de-8b93-5a551f02f608","maxScore":81,"minScore":23,"orderIndex":90,"description":"Home on create even party computer side. Provide the perform school.\nJoin others watch happen certain finish nice.","estimatedTime":"10 weeks"}'

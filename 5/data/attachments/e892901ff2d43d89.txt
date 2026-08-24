@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDIyOjUyOjEyLjYzMjUwMCIsInVzZXJfaWQiOiJjZjVmYTNhYi03NTI0LTQxYWYtYTJmZC0xYWU0YzFhMjUwMGUifQ.6jcJdxsapGwIlvDKyWzMAKYv7JoucPPE9653fckfJSA' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"With ahead team.","maxScore":85,"minScore":16,"description":"Local play before.\nGrow amount finally. Action of receive. Develop month trip build.\nHave air safe yeah best within. Ever it fish treatment hold. Issue study open develop none treat exactly win.","estimatedTime":"9 weeks","previewFileId":"01c035f1-0ea1-4d71-b744-dd9e5e220ead","createdByUserId":"cf5fa3ab-7524-41af-a2fd-1ae4c1a2500e"}'

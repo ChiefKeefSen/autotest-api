@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI0VDIyOjUyOjE0LjE4ODI2NCIsInVzZXJfaWQiOiJkZGUwNTFhOC1mNGZhLTQ2YWItOGNmZS1iNjAwNjc0M2M0ZTEifQ.XDMYS2mZ7p3_ifUhWVD8IU3hlflfpBOMzWLJfc3qyWc' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Another note most doctor something plant.","maxScore":60,"minScore":7,"description":"Stand out color various administration gun. People group election property. Attorney thousand white.","estimatedTime":"9 weeks","previewFileId":"fbb1c941-2181-41f7-8982-7c617df20f78","createdByUserId":"dde051a8-f4fa-46ab-8cfe-b6006743c4e1"}'
