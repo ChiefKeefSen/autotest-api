@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDE0OjE3OjQ4LjMxNDE1OSIsInVzZXJfaWQiOiJmMWU2Y2RmYS1kNDQ2LTQ4N2MtOWI4YS05MzQ1ZWYxZGQ4NzgifQ.IWuwRGKXlQmBrgzB23Y-utdX7b8g6Olph4zDFxFvl1U' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Argue develop difficult.","maxScore":66,"minScore":30,"description":"Still range prove group. During soon team firm identify religious bank. Account wonder daughter one story across new. Generation tree might per there staff.","estimatedTime":"1 weeks","previewFileId":"23dfb0cb-5b69-49f4-8eaf-7b8073e71714","createdByUserId":"f1e6cdfa-d446-487c-9b8a-9345ef1dd878"}'

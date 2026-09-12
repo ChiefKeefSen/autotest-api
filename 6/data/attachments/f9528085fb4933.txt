@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDE0OjE3OjQ2Ljk5NDY3OSIsInVzZXJfaWQiOiI4M2YzNDQwYy1jZWQ3LTRlMjgtYjM2Yy03NTJhOTY4OWU3M2YifQ.b1PPKK7wHHi9gFyTUY93uIPdRUbcL-yhXP5FJRPGcRs' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Chair scene design card find say together think.","courseId":"3d7d1f66-dca5-4cf5-86ba-3478025fecc2","maxScore":68,"minScore":16,"orderIndex":20,"description":"Necessary other environment. Perform raise other for. Though employee religious else law raise.\nAlong hand young strong. Scene them teach something stop.","estimatedTime":"7 weeks"}'

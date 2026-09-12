@@ -1,0 +1,17 @@
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 200
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'title' is equal to 'Affect necessary son sport.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'max_score' is equal to '94'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'min_score' is equal to '30'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'description' is equal to 'Defense since discover politics son state speak. Successful list operation.
+Body enter thus defense. Value almost him wall. Show take couple art listen one hand start.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'estimated_time' is equal to '4 weeks'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'preview_file_id' is equal to '2e78dabd-fb1e-4dba-ad20-194d3ba81608'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'created_by_user_id' is equal to '5269037d-3583-4661-a164-9b091f0c2a7e'

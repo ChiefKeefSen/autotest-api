@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDE0OjE3OjQ4LjgzNjA1NiIsInVzZXJfaWQiOiIzMTk3YzY2NC00NzM2LTQ0OGItYjhiZS0wMDE5OWVmMmQxYjQifQ.QOjpKh-lAAOda4MfY6D3IB0aM970O1Xx26LU2aB8vkA' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hospital across tell not little goal.","maxScore":74,"minScore":16,"description":"Want bad nature must. Affect billion group state fire theory prevent south. Enough rich kind he own happy ball. Popular former election other bag owner test.","estimatedTime":"3 weeks","previewFileId":"f85c9f27-1a06-4ec5-a14d-e45143489ebb","createdByUserId":"3197c664-4736-448b-b8be-00199ef2d1b4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDE0OjE3OjUxLjc5MjgwNyIsInVzZXJfaWQiOiI1MjY5MDM3ZC0zNTgzLTQ2NjEtYTE2NC05YjA5MWYwYzJhN2UifQ.lZX19mKyn457-9ploXFFZ6Z8bzt6sLYOPnsp0WEDu3g' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Affect necessary son sport.","maxScore":94,"minScore":30,"description":"Defense since discover politics son state speak. Successful list operation.\nBody enter thus defense. Value almost him wall. Show take couple art listen one hand start.","estimatedTime":"4 weeks","previewFileId":"2e78dabd-fb1e-4dba-ad20-194d3ba81608","createdByUserId":"5269037d-3583-4661-a164-9b091f0c2a7e"}'

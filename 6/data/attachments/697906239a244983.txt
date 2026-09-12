@@ -1,0 +1,28 @@
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:19 Make GET request to http://localhost:8000/api/v1/courses?userId=56302964-908f-4570-abb6-b309733fd4e5
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=56302964-908f-4570-abb6-b309733fd4e5
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 200
+INFO     BASE_ASSERTIONS:base.py:53 Check that the length of 'courses' is equal to [CreateCourseResponseSchema(course=CourseSchema(id='eaca2ef3-3577-47f6-98f2-f172817bbc15', title='Perhaps who police.', max_score=64, min_score=25, description='Name rather expect power will choice. Firm source education foreign. Nearly watch yard nature school role morning.\nFirst pass stop their near. Deep play near threat the. Mother house stuff office.', preview_file=FileSchema(id='cc122b07-f0f7-43a9-9018-d5f61a177f6a', url=HttpUrl('http://localhost:8000/static/tests/d72ae9bf-1310-44cf-8dea-e26f91ac653c.png'), filename='d72ae9bf-1310-44cf-8dea-e26f91ac653c.png', directory='tests'), estimated_time='6 weeks', created_by_user=UserSchema(id='56302964-908f-4570-abb6-b309733fd4e5', email='wellsamber@example.com', last_name='Gregory', first_name='Alex', middle_name='Thomas')))]
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'id' is equal to 'eaca2ef3-3577-47f6-98f2-f172817bbc15'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'title' is equal to 'Perhaps who police.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'max_score' is equal to '64'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'min_score' is equal to '25'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'description' is equal to 'Name rather expect power will choice. Firm source education foreign. Nearly watch yard nature school role morning.
+First pass stop their near. Deep play near threat the. Mother house stuff office.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'estimated_time' is equal to '6 weeks'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'id' is equal to 'cc122b07-f0f7-43a9-9018-d5f61a177f6a'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'url' is equal to 'http://localhost:8000/static/tests/d72ae9bf-1310-44cf-8dea-e26f91ac653c.png'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'filename' is equal to 'd72ae9bf-1310-44cf-8dea-e26f91ac653c.png'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'directory' is equal to 'tests'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'id' is equal to '56302964-908f-4570-abb6-b309733fd4e5'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'first_name' is equal to 'Alex'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'last_name' is equal to 'Gregory'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'email' is equal to 'wellsamber@example.com'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'middle_name' is equal to 'Thomas'

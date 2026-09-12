@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:19 Make GET request to http://localhost:8000/api/v1/exercises?courseId=7f3938c9-471d-4aa5-8d11-e0fab407b1fd
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=7f3938c9-471d-4aa5-8d11-e0fab407b1fd
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 200
+INFO     BASE_ASSERTIONS:base.py:53 Check that the length of 'exercises' is equal to [ExerciseSchema(id='fa0c0b0b-48ca-44d4-a3c6-c58969165de8', title='Sort list board agree collection left piece physical.', course_id='7f3938c9-471d-4aa5-8d11-e0fab407b1fd', max_score=55, min_score=16, order_index=69, description='Work only us simple quality. Method gun newspaper win choose. Between eye growth financial.', estimated_time='9 weeks')]
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'exercise_id' is equal to 'fa0c0b0b-48ca-44d4-a3c6-c58969165de8'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'estimated_time' is equal to '9 weeks'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'title' is equal to 'Sort list board agree collection left piece physical.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'min_score' is equal to '16'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'max_score' is equal to '55'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'description' is equal to 'Work only us simple quality. Method gun newspaper win choose. Between eye growth financial.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'course_id' is equal to '7f3938c9-471d-4aa5-8d11-e0fab407b1fd'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'order_index' is equal to '69'

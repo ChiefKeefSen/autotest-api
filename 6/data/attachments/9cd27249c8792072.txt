@@ -1,0 +1,17 @@
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:19 Make PATCH request to http://localhost:8000/api/v1/courses/82d49ec7-ad98-483c-a6e2-2d758889ac65
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses/82d49ec7-ad98-483c-a6e2-2d758889ac65
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 200
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'title' is equal to 'Know main simple.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'max_score' is equal to '70'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'min_score' is equal to '26'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'description' is equal to 'Both specific their check. Improve performance easy war total. Run task fund skin believe catch.
+Sure cell action though. Police similar service data.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'estimated_time' is equal to '2 weeks'

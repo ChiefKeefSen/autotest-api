@@ -1,0 +1,13 @@
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:19 Make DELETE request to http://localhost:8000/api/v1/files/481c2da3-ad14-4ffe-a611-e633a257b1d4
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/files/481c2da3-ad14-4ffe-a611-e633a257b1d4
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 200
+INFO     HTTP_LOGGER:event_hooks.py:19 Make GET request to http://localhost:8000/api/v1/files/481c2da3-ad14-4ffe-a611-e633a257b1d4
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 404 Not Found from http://localhost:8000/api/v1/files/481c2da3-ad14-4ffe-a611-e633a257b1d4
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 404
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'details' is equal to 'File not found'

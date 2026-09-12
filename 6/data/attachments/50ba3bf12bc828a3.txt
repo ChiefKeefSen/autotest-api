@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDE0OjE3OjUxLjUzMDc0MiIsInVzZXJfaWQiOiI2YTkwOGVhMi1iMzEyLTQxMzYtYTA0MC05YmRlMjlhYjUzYzMifQ.eBaffiMGPfDJ8E0RRpK76pL5rbin0TmYGagdOq4ygmw' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"State these sister head as speech position.","maxScore":79,"minScore":19,"description":"Better whom world tell social minute standard. Last marriage produce same.\nWhat nature hold.","estimatedTime":"7 weeks","previewFileId":"455025e3-01a9-4c9e-b151-b35b4ad28ba7","createdByUserId":"6a908ea2-b312-4136-a040-9bde29ab53c3"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 200
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'estimated_time' is equal to '7 weeks'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'title' is equal to 'Chair scene design card find say together think.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'min_score' is equal to '16'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'max_score' is equal to '68'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'description' is equal to 'Necessary other environment. Perform raise other for. Though employee religious else law raise.
+Along hand young strong. Scene them teach something stop.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'course_id' is equal to '3d7d1f66-dca5-4cf5-86ba-3478025fecc2'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'order_index' is equal to '20'

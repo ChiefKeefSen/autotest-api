@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDE0OjE3OjQ2Ljk5NDY3OSIsInVzZXJfaWQiOiI4M2YzNDQwYy1jZWQ3LTRlMjgtYjM2Yy03NTJhOTY4OWU3M2YifQ.b1PPKK7wHHi9gFyTUY93uIPdRUbcL-yhXP5FJRPGcRs' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Build activity investment sport shoulder.","maxScore":82,"minScore":22,"description":"Everybody on small shake. Letter turn kid spring.\nImagine notice fire hair. Stand guess over star official upon agent. Whether ahead reason.","estimatedTime":"10 weeks","previewFileId":"651f89e7-2e98-495a-92da-85e80a1f9c39","createdByUserId":"83f3440c-ced7-4e28-b36c-752a9689e73f"}'
