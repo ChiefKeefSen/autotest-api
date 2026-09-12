@@ -78,7 +78,7 @@ class TestExercises:
     def test_delete_exercise(self, function_exercise: ExerciseFixture, exercises_client: ExercisesClient):
         delete_response = exercises_client.delete_exercise_api(function_exercise.response.exercise.id)
         assert_status_code(delete_response.status_code, HTTPStatus.OK)
-
+#sdlfkjds
         get_response = exercises_client.get_exercise_api(function_exercise.response.exercise.id)
         get_response_data = InternalErrorResponseSchema.model_validate_json(get_response.text)
         assert_status_code(get_response.status_code, HTTPStatus.NOT_FOUND)
