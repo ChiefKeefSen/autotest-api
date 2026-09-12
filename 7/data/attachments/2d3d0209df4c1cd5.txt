@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDE0OjIxOjMyLjgwNDg2NCIsInVzZXJfaWQiOiIyNmQ1NTkxZS1mMzM5LTQxNzYtOWM0Yi0zMjhlZWViNTQ5ZTcifQ.Y-npyFsZ3fOHM2ivthjDeuTJ5D9LYBoFmfIwZyvi3es' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Either political key close first.","maxScore":92,"minScore":28,"description":"Care eye really. Figure behavior area score indeed. Inside security participant able yard discover.","estimatedTime":"3 weeks","previewFileId":"f847e674-438c-4d65-b69e-73bc7a90e30c","createdByUserId":"26d5591e-f339-4176-9c4b-328eeeb549e7"}'

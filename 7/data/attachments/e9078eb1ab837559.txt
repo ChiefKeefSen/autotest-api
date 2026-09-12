@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDE0OjIxOjI5LjQ5MzYwNCIsInVzZXJfaWQiOiJiODYzNGExNi0wMzhjLTQyMjEtOGNmYi1jZjFiMWQ3NGFjODgifQ._dPAf-BCRuyqJWfB8ARtNk29N3V9hGsi-lG88Q1D5VY' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Build care too life high purpose.","maxScore":62,"minScore":20,"description":"Computer significant process. Off new computer back performance nothing. Successful outside answer person.\nWhole return training tough whether adult. Affect act rate more.","estimatedTime":"7 weeks","previewFileId":"982fc5d9-534c-46b5-8029-3813108e88e6","createdByUserId":"b8634a16-038c-4221-8cfb-cf1b1d74ac88"}'

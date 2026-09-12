@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDE0OjIxOjI3LjQ1NDI1NyIsInVzZXJfaWQiOiIzZDA3YTc1YS1lZDI4LTQ4M2ItYmY5NS1kZGFmZDg4MzRiMjgifQ.565FRMpVqXgOlueq1JFRf8STh5Fe_cKIeo1y91HaRUE' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pay interview result ten.","maxScore":93,"minScore":15,"description":"Or energy then social quickly oil. Describe bring southern compare bad fight newspaper.\nWith than foot suddenly popular hit they crime. Fall account candidate life.","estimatedTime":"5 weeks","previewFileId":"48307683-589e-475a-bf26-365c139ef323","createdByUserId":"3d07a75a-ed28-483b-bf95-ddafd8834b28"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDE0OjIxOjI4LjMxMzY3NyIsInVzZXJfaWQiOiJlZTI0NmQ1Ni0yMjlhLTQzNDgtYjI0ZS1iMDA0NDU1ZDczNjcifQ.BEEda75233l87EHpiioyS5Z7bNrr7nmJWP-5rmR6qzk' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Southern least situation.","maxScore":64,"minScore":24,"description":"Spring second task fly structure. Among magazine bring friend prove.\nCollection deep rest line well author. Four with six myself identify. Impact only speak she easy able.","estimatedTime":"10 weeks","previewFileId":"72a58784-685e-44c4-a8d3-71d34954c585","createdByUserId":"ee246d56-229a-4348-b24e-b004455d7367"}'

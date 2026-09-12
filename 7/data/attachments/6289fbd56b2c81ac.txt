@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDE0OjIxOjI4LjU4ODk1MyIsInVzZXJfaWQiOiIwNDlhNjRkZS04ZmNiLTRjMTEtYjUwYS1kNWJlNDM5N2I4NDYifQ.OBeu3Hw7TqGslqsqz-qOKPvIJD1xZEHZsSTwsk2TyEQ' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Knowledge improve ball law myself.","maxScore":67,"minScore":28,"description":"Commercial notice mission strategy national. Drop article network color wall baby above sit. Short admit understand card anyone loss little. Free almost investment.","estimatedTime":"3 weeks","previewFileId":"24a6539b-4a76-4bbb-922f-766f68c88e51","createdByUserId":"049a64de-8fcb-4c11-b50a-d5be4397b846"}'

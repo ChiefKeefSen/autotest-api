@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDE0OjIxOjMzLjM3MDQwOSIsInVzZXJfaWQiOiIzZGVjYjFhOS1iOTU1LTQ1ZjgtOGEzNy02ZWUzODM1ZjdmZTAifQ.HPLE3T76_VC7V7zzyddzQW_DEl4g2oDfuIf1E6uHnV0' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Improve so stage control move hair specific.","maxScore":100,"minScore":21,"description":"Bring manager all recently. Travel draw page field suggest. Information ask century forward between.","estimatedTime":"9 weeks","previewFileId":"a6dbe10f-07ad-4a1b-987e-e4783b69ea22","createdByUserId":"3decb1a9-b955-45f8-8a37-6ee3835f7fe0"}'

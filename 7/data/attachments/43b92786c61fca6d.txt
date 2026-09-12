@@ -1,0 +1,28 @@
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:19 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:19 Make GET request to http://localhost:8000/api/v1/courses?userId=3d07a75a-ed28-483b-bf95-ddafd8834b28
+INFO     HTTP_LOGGER:event_hooks.py:23 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=3d07a75a-ed28-483b-bf95-ddafd8834b28
+INFO     BASE_ASSERTIONS:base.py:18 Check that the response status code is equal to 200
+INFO     BASE_ASSERTIONS:base.py:53 Check that the length of 'courses' is equal to [CreateCourseResponseSchema(course=CourseSchema(id='52a01009-7a8e-4051-bc40-93e3d913c7d0', title='Pay interview result ten.', max_score=93, min_score=15, description='Or energy then social quickly oil. Describe bring southern compare bad fight newspaper.\nWith than foot suddenly popular hit they crime. Fall account candidate life.', preview_file=FileSchema(id='48307683-589e-475a-bf26-365c139ef323', url=HttpUrl('http://localhost:8000/static/tests/c8d8c0b0-68fd-46df-b2fa-cf591d2b3a1b.png'), filename='c8d8c0b0-68fd-46df-b2fa-cf591d2b3a1b.png', directory='tests'), estimated_time='5 weeks', created_by_user=UserSchema(id='3d07a75a-ed28-483b-bf95-ddafd8834b28', email='donald22@example.org', last_name='Hill', first_name='Howard', middle_name='Sandra')))]
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'id' is equal to '52a01009-7a8e-4051-bc40-93e3d913c7d0'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'title' is equal to 'Pay interview result ten.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'max_score' is equal to '93'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'min_score' is equal to '15'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'description' is equal to 'Or energy then social quickly oil. Describe bring southern compare bad fight newspaper.
+With than foot suddenly popular hit they crime. Fall account candidate life.'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'estimated_time' is equal to '5 weeks'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'id' is equal to '48307683-589e-475a-bf26-365c139ef323'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'url' is equal to 'http://localhost:8000/static/tests/c8d8c0b0-68fd-46df-b2fa-cf591d2b3a1b.png'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'filename' is equal to 'c8d8c0b0-68fd-46df-b2fa-cf591d2b3a1b.png'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'directory' is equal to 'tests'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'id' is equal to '3d07a75a-ed28-483b-bf95-ddafd8834b28'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'first_name' is equal to 'Howard'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'last_name' is equal to 'Hill'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'email' is equal to 'donald22@example.org'
+INFO     BASE_ASSERTIONS:base.py:35 Check that the 'middle_name' is equal to 'Sandra'

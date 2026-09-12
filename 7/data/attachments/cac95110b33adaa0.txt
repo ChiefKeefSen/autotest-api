@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTEyVDE0OjIxOjMzLjA4MDA2NSIsInVzZXJfaWQiOiJmZjdkNDFkMC1jNGMzLTQzNjMtODg5Yy03Y2YzNTRkZDVjYjkifQ.3aR-dk6a-EV8QMviloF2TFU2f2f53i9-J6H5A4ZbDVM' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cost once owner music hundred recognize around clear.","maxScore":68,"minScore":13,"description":"Part inside dream statement most director. Pick per animal risk do represent. Off wish about.","estimatedTime":"5 weeks","previewFileId":"c2a19d07-5010-4324-9906-9a7f72ef4721","createdByUserId":"ff7d41d0-c4c3-4363-889c-7cf354dd5cb9"}'
